@@ -1,0 +1,174 @@
+
+body, h1, h2, h3, h4, h5, p, ul, li, table, th, td, form, label, input, select, textarea {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  
+  /* Apply a background image */
+  body {
+  
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-image: url('./ck-ok4.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      color: #333; /* Set text color to a dark color for readability */
+    
+  }
+  
+  /* Center-align text within h1 and h2 elements */
+  h1, h2 {
+    text-align: center;
+  }
+  
+  /* Style the header */
+  h1 {
+    font-size: 36px;
+    margin-top: 20px;
+    color: #0700007a; /* Text color for header */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.605); /* Text shadow for better readability */
+  }
+  
+  /* Style the subheader */
+  h2 {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #140303d6; /* Text color for subheader */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.575); /* Text shadow */
+  }
+  
+  /* Style the paragraph text */
+  p {
+    font-size: 20px;
+    margin: 10px 0;
+    color: #333; /* Text color for paragraphs */
+  }
+  
+  
+  /* Style the list items */
+  ul {
+    list-style: disc;
+    margin-left: 20px;
+  }
+  
+  /* Style the table */
+  table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for the table */
+  }
+  
+  /* Style table headers */
+  th, td {
+    border: 1px solid #333; /* Border color for table cells */
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Style the form */
+  form {
+    margin: 20px auto;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for the form */
+    padding: 20px;
+  }
+  
+  /* Style form fieldsets */
+  fieldset {
+    border: 1px solid #ccc;
+    /* Example CSS to center and set a smaller width for the fieldset */
+
+  width: 50%; /* Adjust the percentage to your desired width */
+  margin: 0 auto; /* Center the fieldset horizontally */
+  /* Other styling properties as needed */
+
+
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style form labels */
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  /* Style form inputs and textareas */
+  input[type="text"],
+  input[type="number"],
+  input[type="password"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Style form submit button */
+  input[type="submit"] {
+    background-color: #ff6600; /* Submit button background color */
+    color: #fff; /* Text color for the submit button */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  /* Style form select */
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  ul {
+    list-style: none; /* Remove default list styles */
+    text-align: center; /* Center the list items horizontally */
+  }
+  
+  li {
+    margin: 8px 0; /* Add space above and below each list item */
+  }
+  
+  input[type="text"],
+input[type="number"],
+input[type="password"],
+input[type="email"],
+
+textarea {
+  width: 50%; /* Adjust the percentage to your desired width */
+  /* Other styling properties as needed */
+}
+ul {
+  text-align: center;
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  
+  background-color: #3656c08f;
+  color: #fff;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+/* Add some spacing between list items */
+li + li {
+  margin-left: 10px;
+}
+.cl{
+  background-color: #dddddd9c;
+}
+
+
+  
